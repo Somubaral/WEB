@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>combinator selector</title>
+
+    <style>
+        /* #header>h1>i  // child selector */
+        /* h1>i  // child selector*/
+        /* #footer i  // descendant selector */
+        /* body i  // descendant selector*/
+        /* h1+h2  adjacent sibling selector*/
+        /* h1+h3 // it will not work bcz h1 and h3 are not adjacent to eachother */
+        /* h1~h3 // general sibling selector*/
+        /* #header~#footer // general sibling selector  */
+        h1~h2 /* general sibling selector  */
+        {
+            color: blue;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>header one
+            <i>italic content</i>
+        </h1>
+        <h2> header two</h2>
+        <h3>header three</h3>
+    </div>
+    <div id="main-section">
+        <h1>header one</h1>
+        <h2>header two</h2>
+    </div>
+    <div id="footer">
+        <h1>header one
+            <i>italic content</i>
+        </h1>
+        <h2> header two</h2>
+        <h3>header three</h3>
+    </div>
+</body>
+</html>
