@@ -1,0 +1,16 @@
+.bar
+{
+    background-color: black;
+    padding: 20px;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.T-BAR
+{
+    background-color: orange;
+    color: white;
+    padding: 10px 10px ;
+    border-radius: 20px ;
+}

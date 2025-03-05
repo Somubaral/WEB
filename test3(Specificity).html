@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Specificity</title>
+    <style>
+        #mno 
+        {
+            background-color: aqua;
+        }
+        h1
+        {
+            background-color: red;
+        }
+        h1
+        {
+            background-color: green;
+        }
+        .xyz
+        {
+            background-color: blanchedalmond;
+        }
+        .xyz#mno
+        {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="xyz" id="mno" style="background-color: black;">this is heading</h1>
+</body>
+</html>
+<!--
+prirority list 
+tagName selector-1
+class selector-10
+id selector -100
+inline css -1000
+
+ -->

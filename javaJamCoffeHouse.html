@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaJam Coffee House</title>
+    <style>
+        *
+        {
+            margin:0px;
+        }
+        body
+        {
+            background-color: rgb(246, 246, 178);
+        }
+        header
+        {
+            background-color: rgb(232, 178, 125);
+            color: rgb(39, 20, 20);
+            height: 180px;    
+            
+        }
+        img
+        {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        header>h1{
+            text-align: left;
+            font-size: xx-large;
+            padding-top: 60px;
+            margin-left: 190px; 
+            float: left; 
+
+            }
+        aside
+        {
+            margin: 0px;
+            width: 180px;
+            height: 290 px;
+            background-color: rgb(29, 4, 4);  
+            float: left;
+            
+        }
+        button
+        {
+            width: 180px;
+            margin-top: 10px;
+            color: rgb(232, 178, 125);
+            background-color: rgb(39, 20, 20) ;
+            
+        }
+    button:hover{
+        box-shadow: 0px 0px 20px wheat;
+    }
+    section
+    {
+        color: black;
+        margin-left: 200px;
+    }
+    .main
+    {
+        padding: 20px;
+    }
+    table
+    {
+        padding: 20px;
+        
+    }
+    footer
+    {
+        text-align: center;
+        background-color: rgb(232, 178, 125);
+        color: black;
+        padding: 20px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\scooter\OneDrive\Desktop\JSPIDER\Web TEch\CSS\JavaJam Coffee House Logo.jpeg" alt="JavaJam Coffee House Logo Missing here" height="180px" width="180px">
+        <h1>JavaJam Coffee House</h1>
+    </header>
+    <aside>
+        <button>Home</button>
+        <button>Menu</button>
+        <button>Music</button>
+        <button>Jobs</button>
+    </aside>
+    <section>
+        <h1 class="main">Jobs at JavaJam</h1>
+        <p class="main">Want to work at JavaJam? Fill out the form below to start your application. <br>
+            Required fields are marked with an asterik(*).
+        </p>
+        <form onsubmit="validate()" method="post" action="server side url">
+            <table>
+                <tr>
+                    <td><label>* Name:</label></td>
+                    <td><input/ type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>* E-mail:</label></td>
+                    <td><input/ type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>* Experience:</label></td>
+                    <td><input/ type="text"></td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2"><input/ type="submit" ></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer>
+        <h6>Copyright @ 2025 JavaJam Coffee House <br> <a href="https://www.linkedin.com/in/saumyakant-baral-96b5a4124/">Create By @ Somu Baral</a></h6>
+    </footer>
+</body>
+</html>

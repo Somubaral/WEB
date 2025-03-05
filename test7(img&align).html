@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .b1, .b2, .b3, .b4, .b5 {
+            height: 100px;
+            width: 200px;
+            background-color: yellow;
+            border: 2px solid red;
+            text-align: center;
+            margin: 10px;
+        }
+
+        /* First row: Box 1 and Box 2 */
+        .b1 {
+            margin-right: auto; /* Push the box to the left */
+        }
+
+        .b2 {
+            margin-left: auto; /* Push the box to the right */
+        }
+
+        /* Second row: Box 3 centered */
+        .b3 {
+            margin-left: auto;
+            margin-right: auto;
+            display: block; /* Makes box 3 behave like a block element, so it centers properly */
+        }
+
+        /* Third row: Box 4 and Box 5 */
+        .b4 {
+            margin-right: auto; /* Push the box to the left */
+        }
+
+        .b5 {
+            margin-left: auto; /* Push the box to the right */
+        }
+    </style>
+</head>
+<body>
+    <!-- Row 1 -->
+    <div class="b1"></div>
+    <div class="b2"></div>
+
+    <!-- Row 2 -->
+    <div class="b3"></div>
+
+    <!-- Row 3 -->
+    <div class="b4"></div>
+    <div class="b5"></div>
+
+</body>
+</html>
