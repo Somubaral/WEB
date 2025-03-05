@@ -1,0 +1,22 @@
+body
+{
+    background-color: aqua;
+}
+fieldset
+{
+    background-color: aquamarine;
+    border: none;
+}
+legend
+{
+    padding: 10px;
+    border: 0px solid aliceblue;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+button:hover
+{
+    background-color: rgb(33, 197, 82);
+    box-shadow: 20px;
+}
