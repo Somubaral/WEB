@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saumya Kant Baral | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-blue-900 text-white py-6 shadow-lg">
+    <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <h1 class="text-3xl font-bold">Saumya Kant Baral</h1>
+      <nav class="space-x-6 mt-4 md:mt-0">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#skills" class="hover:underline">Skills</a>
+        <a href="#experience" class="hover:underline">Experience</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-16 bg-gradient-to-r from-blue-800 to-indigo-600 text-white">
+    <h2 class="text-4xl font-bold mb-4">Electronics & Communication Engineer</h2>
+    <p class="text-lg mb-6">Passionate about AI, Machine Learning, IoT & Innovative Tech Solutions</p>
+    <a href="https://www.linkedin.com/in/saumyakant-baral-96b5a4124/" target="_blank" 
+       class="px-6 py-3 bg-white text-blue-800 font-semibold rounded-lg shadow hover:bg-gray-100">
+      Connect on LinkedIn
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container mx-auto px-6 py-12">
+    <h3 class="text-2xl font-bold mb-4">About Me</h3>
+    <p class="text-lg leading-relaxed">
+      I am an Electronics and Communication Engineering student at CV Raman Global University, 
+      passionate about building innovative solutions through AI, Machine Learning, Deep Learning, and IoT. 
+      My journey includes hands-on internships, impactful projects, and leadership roles in technical and cultural societies.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-gray-100 py-12">
+    <div class="container mx-auto px-6">
+      <h3 class="text-2xl font-bold mb-6">Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <span class="p-3 bg-white shadow rounded">C++</span>
+        <span class="p-3 bg-white shadow rounded">Python</span>
+        <span class="p-3 bg-white shadow rounded">Java</span>
+        <span class="p-3 bg-white shadow rounded">Machine Learning</span>
+        <span class="p-3 bg-white shadow rounded">Deep Learning</span>
+        <span class="p-3 bg-white shadow rounded">IoT</span>
+        <span class="p-3 bg-white shadow rounded">MATLAB</span>
+        <span class="p-3 bg-white shadow rounded">MySQL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="container mx-auto px-6 py-12">
+    <h3 class="text-2xl font-bold mb-4">Work Experience</h3>
+    <div class="bg-white p-6 rounded shadow mb-4">
+      <h4 class="text-xl font-semibold">Trainee - Steel Authority of India Limited</h4>
+      <p class="text-gray-700 text-sm">Dec 2022 - Jan 2023</p>
+      <ul class="list-disc ml-6 mt-2 text-gray-800">
+        <li>Assisted in CCTV software development and optimization.</li>
+        <li>Worked with senior engineers to enhance system efficiency and performance.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-gray-100 py-12">
+    <div class="container mx-auto px-6">
+      <h3 class="text-2xl font-bold mb-6">Projects</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="font-semibold">🌿 Plant Disease Detection Model</h4>
+          <p>Trained deep learning models to classify plant diseases, helping reduce crop losses.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="font-semibold">🔥 Hot Metal Ladle Detection</h4>
+          <p>Implemented computer vision for real-time monitoring in industrial safety.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container mx-auto px-6 py-12">
+    <h3 class="text-2xl font-bold mb-4">Contact</h3>
+    <p class="mb-2">📧 Email: <a href="mailto:saumyakantbaral2001@gmail.com" class="text-blue-600">saumyakantbaral2001@gmail.com</a></p>
+    <p class="mb-2">📞 Phone: +91-7328080877</p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/saumyakant-baral-96b5a4124/" class="text-blue-600">linkedin.com/in/saumyakant-baral</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-4 text-center">
+    <p>&copy; 2025 Saumya Kant Baral | Portfolio</p>
+  </footer>
+
+</body>
+</html>
+
 
